@@ -11,29 +11,29 @@ const routes = [
       {
         path: 'user',
         name: 'User',
-        component: () => import("@/views/User"),
+        component: () => import("../views/User"),
       },
       {
         path: 'book',
         name: 'Book',
-        component: () => import("@/views/Book"),
+        component: () => import("../views/Book"),
       },
       {
         path: 'person',
         name: 'Person',
-        component: () => import("@/views/Person"),
+        component: () => import("../views/Person"),
       }
     ]
   },
   {
     path: '/login',
     name: 'Login',
-    component: () => import("@/views/Login")
+    component: () => import("../views/Login")
   },
   {
     path: '/register',
     name: 'Register',
-    component: () => import("@/views/Register")
+    component: () => import("../views/Register")
   },
 ]
 
